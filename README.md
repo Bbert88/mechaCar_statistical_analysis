@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis is to assist AutosRU with their prototype vehicle **MechaCar**. The MechaCar is experiencing technical issues. Data has been collected from three different lots of MechaCars. A statistical analysis of the data will assist the manufacturing team understand what may be causing the issues in the vehicles. The statistical analysis will be completed using R and its dplyr library.
+The purpose of this analysis is to assist AutosRU with their prototype vehicle **MechaCar**. The MechaCar is experiencing technical issues. Data has been collected from three different lots of MechaCars. A statistical analysis of the data will assist the manufacturing team to understand what may be causing the issues in the vehicles. The statistical analysis will be completed using R and its dplyr library.
 
 ## Results
 
@@ -14,7 +14,7 @@ The purpose of this analysis is to assist AutosRU with their prototype vehicle *
 
 - The variables/coefficients: *vehicle length* and *ground clearance* both have a very low P values (significantly lower than .05). This indicates that these both have an impact on the vehicle's overall performance (Miles Per Gallon). These appear to be the only statistically significant variables.
 
-- The linear model has an r squared value of *.71*. This means the model explains 71% of the variability. While 100% would be ideal, the model does predict the mpg effectivaely. The p value of the linear model is *0.0000000000535*. This is significantly lower than the widely accepted cutoff of .05. The null hypothesis must be rejected as it appears that atleast some of the variables have a significant impact on the vehicles performance.
+- The linear model has an r squared value of *.71*. This means the model explains 71% of the variability. While 100% would be ideal, the model does predict the mpg effectively. The p value of the linear model is *0.0000000000535*. This is significantly lower than the widely accepted cutoff of .05. The null hypothesis must be rejected as it appears that atleast some of the variables have a significant impact on the vehicles performance.
 
 ### Summary Statistics on Suspension Coils
 
