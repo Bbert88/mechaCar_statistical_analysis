@@ -53,4 +53,29 @@ Lot 2 of MechaCar prototypes resulted in a statistical analysis with a p-value o
 Lot 3 of MechaCar prototypes resulted in a statistical analysis with a p-value of .04. The variance of PSI in this lot **IS** statiscally different from that of the population (all 3 lots). The null hypothesis is rejected. 
 
 
-### Study Design: MechaCar vs Competition 
+### Study Design: MechaCar vs Competition
+
+Consumers value safety. An additional study which could would be valuable to the consumer would be on the safety and cost of vehicles. While consumers value safety, their budgets are not unlimited. Does more money mean safer vehicles? 
+
+Key Metrics
+
+- Safety data : crash ratings (front,side,rear)
+- Cost info : MSRP of vehicles
+
+Null Hypothesis
+
+- The cost of the vehicle has no bearing on the safety rating.
+
+Alternative Hypothesis
+
+- There is an identifiable positive correlation between the cost of a vehicle and its safety ratings.
+
+Statistical Testing
+
+- Linear Regression with cost and safety variables/coefficients
+- Two sample T test
+
+Data Needed
+
+- A dataset including MSRP of a wide range of vehicles from the past 5-10 years.
+- A dataset of safety ratings for the vehicles which are listed in the MSRP dataset.
