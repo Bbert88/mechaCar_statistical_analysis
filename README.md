@@ -34,14 +34,17 @@ It is apparent that lot 3 has significant issues as the variance is calculated a
 
 This analysis indicates that the average PSI variance across all lots is not statiscally significant. The p value (.06) suggests the null hypothesis cannot be rejected.
 
+**Lot 1 T-Test**
 ![lot1](./Images/lot1.png)
 
 Lot 1 of MechaCar prototypes resulted in a statistical analysis with a p-value of 1. The variance of PSI in this lot is not statiscally different from that of the population (all 3 lots). The null hypothesis cannot be rejected.
 
+**Lot 2 T-Test**
 ![lot2](./Images/lot2.png)
 
 Lot 2 of MechaCar prototypes resulted in a statistical analysis with a p-value of .60. The variance of PSI in this lot is not statiscally different from that of the population (all 3 lots). The null hypothesis cannot be rejected.
 
+**Lot 3 T-Test**
 ![lot3](./Images/lot3.png)
 
 Lot 3 of MechaCar prototypes resulted in a statistical analysis with a p-value of .04. The variance of PSI in this lot **IS** statiscally different from that of the population (all 3 lots). The null hypothesis is rejected. 
